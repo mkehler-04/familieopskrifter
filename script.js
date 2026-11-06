@@ -1,4 +1,4 @@
-const storageKey = "buffalo-chicken-burgers";
+const storageKey = "jordbaercheesecake";
 const state = JSON.parse(localStorage.getItem(storageKey) || "{}");
 const persist = () => localStorage.setItem(storageKey, JSON.stringify(state));
 
@@ -25,7 +25,7 @@ document.querySelectorAll(".instructions li").forEach((step, i) => {
 const saveBtn = document.querySelector(".save");
 const renderSave = () => {
   saveBtn.classList.toggle("saved", Boolean(state.saved));
-  saveBtn.textContent = state.saved ? "♥ SAVED" : "♡ SAVE";
+  saveBtn.textContent = state.saved ? "♥ GEMT" : "♡ GEM OPSKRIFT";
 };
 saveBtn.addEventListener("click", () => {
   state.saved = !state.saved;
