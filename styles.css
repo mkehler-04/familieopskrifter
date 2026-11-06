@@ -48,7 +48,7 @@ h1, h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 600; }
 /* Hero */
 .hero {
   background: linear-gradient(rgba(0,0,0,.68), rgba(0,0,0,.68)),
-              url("assets/images/Cheesecake-340x216.jpg") center / cover no-repeat;
+              url("assets/images/cheesecake.jpg") center / cover no-repeat;
   color: #fff;
   padding: 3rem 1rem 1.5rem;
 }
