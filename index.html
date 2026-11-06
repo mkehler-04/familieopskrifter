@@ -3,10 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Familieopskrifter</title>
+    <title>Buffalo Chicken Burgers – Familieopskrifter</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Familieopskrifter</h1>
-    <p>Velkommen til vores lille samling af familieopskrifter. Her kan du finde opskrifter, som vores familie er særligt glade for.</p>
+    <nav class="site-nav">
+        <a href="#">OPSKRIFTER</a>
+        <a href="#" class="active">BURGERE</a>
+        <a href="#" class="logo">FAMILIE<br>OPSKRIFTER</a>
+        <a href="#">INSPIRATION</a>
+        <a href="#">OM OS</a>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-inner">
+            <div>
+                <p class="eyebrow">RECIPES</p>
+                <h1>Buffalo Chicken Burgers</h1>
+                <div class="actions">
+                    <button class="save" type="button">♡ SAVE</button>
+                    <button class="print" type="button">PRINT</button>
+                </div>
+            </div>
+            <div>
+                <div class="photo" role="img" aria-label="Buffalo chicken burger">Buffalo Chicken Burger</div>
+                <div class="meta">
+                    <div><strong>ACTIVE TIME</strong><span class="value">⏱</span><br>50 MINUTES</div>
+                    <div><strong>SERVINGS</strong><span class="value">4</span></div>
+                    <div>
+                        <div class="stars" aria-label="Rate this recipe">
+                            <button type="button" aria-label="1 star">★</button><button type="button" aria-label="2 stars">★</button><button type="button" aria-label="3 stars">★</button><button type="button" aria-label="4 stars">★</button><button type="button" aria-label="5 stars">★</button>
+                        </div>
+                        Write a review
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="content">
+        <section class="card">
+            <h2>Ingredients</h2>
+            <ul class="ingredients">
+                <li><label><input type="checkbox"><span>4 tablespoons unsalted butter, plus 2 tablespoons melted and cooled, divided</span></label></li>
+                <li><label><input type="checkbox"><span>6 tablespoons hot sauce</span></label></li>
+                <li><label><input type="checkbox"><span>1 tablespoon molasses</span></label></li>
+                <li><label><input type="checkbox"><span>1/2 teaspoon cornstarch</span></label></li>
+                <li><label><input type="checkbox"><span>1 1/2 pounds ground chicken</span></label></li>
+                <li><label><input type="checkbox"><span>1 large shallot, minced</span></label></li>
+                <li><label><input type="checkbox"><span>2 teaspoons Worcestershire sauce</span></label></li>
+                <li><label><input type="checkbox"><span>1/4 teaspoon pepper</span></label></li>
+                <li><label><input type="checkbox"><span>1/2 teaspoon table salt</span></label></li>
+                <li><label><input type="checkbox"><span>2 teaspoons vegetable oil</span></label></li>
+                <li><label><input type="checkbox"><span>2 ounces blue cheese or Gorgonzola, crumbled (1/2 cup), room temperature</span></label></li>
+                <li><label><input type="checkbox"><span>4 leaves Bibb or Boston lettuce</span></label></li>
+                <li><label><input type="checkbox"><span>4 hamburger buns, toasted if desired</span></label></li>
+                <li><label><input type="checkbox"><span>1 celery rib, sliced thin on bias, plus 1/4 cup celery leaves</span></label></li>
+            </ul>
+        </section>
+
+        <section class="instructions">
+            <h2>Instructions</h2>
+            <ol>
+                <li><span>Microwave 4 tablespoons butter, hot sauce, molasses, and cornstarch in bowl, whisking occasionally, until butter is melted and mixture has thickened slightly, 2 to 3 minutes; cover to keep warm and set aside.</span></li>
+                <li><span>Break ground chicken into small pieces in large bowl. Add remaining 2 tablespoons melted butter, shallot, Worcestershire, and pepper and gently knead with hands until well combined. Divide chicken mixture into 4 equal portions, then gently shape each portion into 3/4-inch-thick patty. Using your fingertips, press center of each patty down until about 1/2 inch thick, creating slight divot.</span></li>
+                <li><span>Season patties with salt. Heat oil in 12-inch nonstick skillet over medium heat until just smoking. Transfer patties to skillet, divot side up, and cook until well browned on first side, 4 to 6 minutes. Flip patties, reduce heat to medium-low, and continue to cook until browned on second side and meat registers 160 degrees, 5 to 7 minutes. Transfer burgers to platter, brush with half of Buffalo sauce. Top with blue cheese, and let rest for 5 minutes.</span></li>
+                <li><span>Arrange lettuce on bun bottoms. Serve burgers on buns, topped with blue cheese, celery, and celery leaves, passing extra Buffalo sauce separately.</span></li>
+            </ol>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
